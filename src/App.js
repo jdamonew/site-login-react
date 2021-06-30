@@ -9,14 +9,14 @@ function App() {
 
       {/*BLOCO ESQUERDO*/}
       <div className="containerOne">
-        <img src={logo} className='logo'/>
+        <img alt="logo" src={logo} className='logo1'/>
         <h1>welcome to my site.</h1>
-        <img src={imagem}/>
+        <img alt="image container" src={imagem} className="image-background"/>
       </div>
 
       {/*BLOCO DIREITO*/}
       <div className="containerTwo">
-        <img src={logoRoxo} className='logo'/>
+        <img alt="logo" src={logoRoxo} className='logo2'/>
 
         <h1 className="login-title">log in</h1>
         <p className="login-subtitle">enter with your credentials ou sign up in our site.</p>
@@ -29,7 +29,9 @@ function App() {
           <label>password</label>
           <input type='password'></input>
 
-          
+          <button type='button'>enter</button>
+
+          <p>don't have an account? <a href="">sign up</a> </p>
 
         </div>
      

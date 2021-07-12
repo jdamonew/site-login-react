@@ -11,7 +11,7 @@ function App() {
       <div className="containerOne">
         <img alt="logo" src={logo} className='logo1'/>
         <h1>welcome to my site.</h1>
-        <img alt="image container" src={imagem} className="image-background"/>
+        <img alt={`Baz taking a ${imagem}`} src={imagem} className="image-background"/>
       </div>
 
       {/*BLOCO DIREITO*/}
@@ -21,7 +21,7 @@ function App() {
         <h1 className="login-title">log in</h1>
         <p className="login-subtitle">enter with your credentials ou sign up in our site.</p>
 
-        <div className='containerLogin'>
+        <div className="containerLogin">
 
           <label>e-mail</label>
           <input type='email'></input>
@@ -31,7 +31,7 @@ function App() {
 
           <button type='button'>enter</button>
 
-          <p>don't have an account? <a href="">sign up</a> </p>
+          <p>don't have an account? <a href="true" onClick={()=>console.log("Open Page")}>sign up</a> </p>
 
         </div>
      

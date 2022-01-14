@@ -1,0 +1,27 @@
+
+<svg
+  width='200'
+  height='200'
+  viewBox='0 0 200 200'
+  xmlns='http://www.w3.org/2000/svg'
+>
+  <defs>
+    <pattern 
+      id='imageId' 
+      patternUnits='userSpaceOnUse' 
+      width='200' 
+      height='200'
+    >
+      <image href='' x='0' y='0' width='200' height='200' />
+    </pattern>
+
+    <clipPath id='shape'>
+      <path fill='currentColor' d='M780,643Q665,786,466,844.5Q267,903,196,701.5Q125,500,198,301.5Q271,103,502,99.5Q733,96,814,298Q895,500,780,643Z'/>
+    </clipPath>
+  </defs>
+
+  <g  clip-path='url(#shape)'>
+    <path fill='url(#imageId)' d='M780,643Q665,786,466,844.5Q267,903,196,701.5Q125,500,198,301.5Q271,103,502,99.5Q733,96,814,298Q895,500,780,643Z' />
+  </g>
+
+</svg>

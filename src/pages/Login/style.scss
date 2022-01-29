@@ -7,72 +7,13 @@
   -webkit-user-select: none;
 }
 
+@media screen and (max-width: 598px){
+  .login-page{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
-
-// .containerOne h1{
-//   color: white;
-//   font-size: 50px;
-//   margin-bottom: 100px;
-//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-// }
-
-// .App{
-//   display: flex;
-//   font-family: 'Montserrat', sans-serif;
-//   height: 100%;
-  
-// }
-
-
-  
-// }
-
-// .logo2{
-//   width: 60px;
-//   height: 120px;
-//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  
-// }
-
-
-
-
-
-// .containerLogin{
-//   display: flex;
-//   flex-direction: column;
-// }
-
-// .containerLogin input{
-//   font-family: 'Montserrat', sans-serif;
-//   font-size: 15px;
-//   color: #44007F;
-//   border: 1px solid rgba(108, 31, 155, 0.32);
-//   border-radius: 3px;
-//   padding: 3px;
-//   max-width: 500px;
-//   height: 35px;
-// }
-
-// .containerLogin input:active, .containerLogin input:focus{
-//   border: 1px solid #44007F;
-//   outline: none;
-// }
-
-// .containerLogin button{
-//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-//   background-image: linear-gradient(141.69deg, #44007F 28.12%, #6A0AA5 50%, #8008C9 70.83%, #9A2ADF 90.62%);
-//   color: #FFFFFF;
-//   font-family: 'Montserrat', sans-serif;
-//   font-weight: bold;
-//   font-size: 25px;
-//   border: 0;
-//   border-radius: 3px;
-//   width: 250px;
-//   height: 50px;
-//   margin-top: 50px;
-//   cursor: pointer;
-// }
 
 // .containerLogin p{
 //   /*align-self: center;*/
@@ -90,24 +31,6 @@
 
 // }
 
-// .containerLogin label{
-//   font-size: 20px;
-//   color: #44007F;
-//   margin-top: 20px;
-//   margin-bottom: 10px;
-// }
-
-// .login-title{
-//   margin-top: 150px;
-//   color: #44007F;
-//   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-// }
-
-// .login-subtitle{
-//   margin-top: -10px;
-//   color: #5C0697;
-
-// }
 
 // @media screen and (max-width: 700px){
 

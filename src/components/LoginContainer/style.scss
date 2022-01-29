@@ -1,9 +1,20 @@
 .container-login{
-    width: 50%;
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+  background-color: #f3f3fd;
+  // opacity: 0.5;
+  background-image: radial-gradient(#444cf7 0.9px, #f3f3fd 0.9px,);
+  background-size: 16px 16px;
+  position: relative;
+ 
+}
+
+
+@media screen and (max-width: 598px){
+  .container-login{
+    width: 100%;
     height: 100%;
-    padding: 20px;
-    background-color: #f3f3fd;
-    opacity: 0.5;
-    background-image: radial-gradient(#444cf7 0.8px, #f3f3fd 0.8px);
-    background-size: 16px 16px;
   }
+}
+  
